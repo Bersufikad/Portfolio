@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bersufikad Kalsa | Portfolio</title>
+    <link rel="stylesheet" href="Cs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<script>
+  
+    document.addEventListener('DOMContentLoaded', function() {
+        const sendBtn = document.getElementById('sendBtn');
+        
+        if (sendBtn) {
+            sendBtn.addEventListener('click', function(event) {
+
+                event.preventDefault(); 
+                alert("Thank you, give me this chance!");
+            });
+        }
+    });
+</script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">BK<span>S</span></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="profile-area">
+                <img src="photo_2026-02-11_23-32-09.jpg" alt="Bersufikad Kalsa" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <h1> <span class="highlight">Bersufikad Kalsa</span></h1>
+                <h2>I'm a 
+                <span style="--i:4;" display-text="Frontend Developer">Frontend Developer</span>
+                <span style="--i:3;" display-text="Graphic Designer">Graphic Designer</span>
+                <span style="--i:2;" display-text="Content Creator">Content Creator</span>
+                <span style="--i:1;" display-text="Graphic Designer">Graphic Designer</span>
+            </h2>
+                <p>Computer Science Student</p>
+                <p>Future Front-End & Back-End Developer passionate about</P>
+                    <P>solving real-world problems through programming.</p>
+                <div class="social-icons">
+                    <a href="#" download="Bersufikad_CV" class="btn">Download cv</a>
+                    <div class="sci">
+                    <a href="https://github.com/Bersufikad" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><i class="fa-solid fa-at"></i></a>
+                    <a href="https://web.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>I am a 3rd year Computer Science student. I have studied C++, Python, Java, HTML and CSS. My goal is to become a professional Full-Stack Developer. I enjoy programming because it allows me to build solutions that help my society and solve real problems.</p>
+            <p class="skill">I Learned</p>
+            <div class="skills-grid">
+                <span class="bersu"><i class="fa-solid fa-code"></i> C++ </span>
+                <span class="bersu"><i class="fa-brands fa-java"></i> Java </span>
+                <span class="bersu"><i class="fa-brands fa-html5"></i> HTML5</span>
+                <span class="bersu"><i class="fa-brands fa-css"></i> CSS3</span>
+                <span class="bersu"><i class="fab fa-github"></i> Git & GitHub</span>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="card-grid">
+            <div class="card">
+                <i class="fas fa-truck-fast card-icon"></i>
+                <h3>FOOD DELIVERY</h3>
+                <p>Console-based Food Delivery management system using C++.</p>
+                <a href="https://github.com/Bersufikad/C-program/blob/main/Food-Deliver.cpp" target="_blank">project</a>
+            </div>
+            <div class="card">
+                <i class="fas fa-laptop-code card-icon"></i>
+                <h3>PORTFOLIO</h3>
+                <p>Responsive and animated portfolio website using HTML and CSS.</p>
+                <a href="/other/Html.html" target="_blank">project</a>
+            </div>
+            <div class="card">
+                <i class="fas fa-calculator card-icon"></i>
+                <h3>CALCULATOR</h3>
+                <p>calculator application that performs addition, subtraction, multiplication, and division.
+                    <span class="highlight"><strong>coming soon</strong></span></p>
+                <a href="#">project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="glass-contact">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-links">
+                <p><i class="fas fa-phone-alt"></i> <strong>Phone:</strong> 0964970416</p>
+                <p><i class="fa-solid fa-at"></i> <strong>Email:</strong> bersufikadkalsa@gmail.com</p>
+                <p><i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/Bersufikad" target="_blank"> github.com/Bersufikad</a> </p>
+            </div>
+        </div>
+        <div class="contact-form">
+        <form action="#" method="get">
+        
+        <input type="text" name="name" placeholder="Your Name" required>        
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <div class="button-group">
+        <button type="submit" id="sendBtn" class="btn">Send Message</button>
+        <button type="reset" class="btn">Clear Message</button>
+        </div>
+    </form>
+</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Bersufikad Kalsa Shage | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
